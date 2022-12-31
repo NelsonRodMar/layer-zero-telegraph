@@ -11,7 +11,7 @@ let trustedRemoteAGoerliEGoerli = ethers.utils.solidityPack(
     ]
 )
 
-console.log("Trusted remote for Arbitrum Goerli : ", trustedRemoteAGoerliEGoerli);
+console.log("Trusted remote for Arbitrum Goerli : ", trustedRemoteAGoerliEGoerli," and destination chain id : ", 10121);
 
 let trustedRemoteEGoerliAGoerli = ethers.utils.solidityPack(
     ['address', 'address'],
@@ -22,4 +22,4 @@ let trustedRemoteEGoerliAGoerli = ethers.utils.solidityPack(
 )
 
 
-console.log("Trusted remote for Ethereum Goerli : ", trustedRemoteEGoerliAGoerli);
+console.log("Trusted remote for Ethereum Goerli : ", trustedRemoteEGoerliAGoerli ," and destination chain id : ", 10143);
